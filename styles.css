@@ -2,3 +2,12 @@ h1{
     background-color:#1397;
     font-display: block;
 }
+
+#sidebar {
+    background-color: #3397;
+    border: 3px solid white;
+    padding: 12px;
+    border-radius: 20px;
+    float:right;
+    margin: 30px 30px 0px 15px;
+}
