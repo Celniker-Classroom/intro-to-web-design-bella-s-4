@@ -44,6 +44,7 @@ a:link {
 
 a:hover {
     border-color: maroon;
+    text-shadow: #1397;
 }
 
 a:visited {
@@ -52,4 +53,18 @@ a:visited {
 
 a:active {
     color: burlywood;
+}
+
+.square {
+    width: 500px;
+    margin: auto; 
+}
+
+#container {
+    background-color: #777;
+    width: 800px;
+    margin: 0 auto;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    padding: 30px;
 }
