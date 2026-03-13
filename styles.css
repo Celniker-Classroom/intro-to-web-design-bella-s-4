@@ -1,6 +1,12 @@
+html {
+    background-color: rgb(232, 255, 231);
+}
+
 h1{
     background-color:#1397;
     font-display: block;
+    width: 400px;
+    margin: 10px 50px 50px 50px;
 }
 
 #sidebar {
@@ -8,6 +14,42 @@ h1{
     border: 3px solid white;
     padding: 12px;
     border-radius: 20px;
-    float:right;
+    float: right;
     margin: 30px 30px 0px 15px;
+}
+
+.pics {
+    width: 500px;
+    border: 4px solid rgb(104, 172, 104);
+    float: right;
+}
+
+.header {
+    color: #882525;
+}
+
+.side {
+    float:left;
+    background-color:blanchedalmond
+}
+
+.paragraph {
+    margin: auto;
+    padding: 10px;
+}
+
+a:link {
+    font-weight: bold;
+}
+
+a:hover {
+    border-color: maroon;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: burlywood;
 }
