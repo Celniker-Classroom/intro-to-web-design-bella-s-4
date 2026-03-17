@@ -63,8 +63,9 @@ a:active {
 #container {
     background-color: #777;
     width: 90%;
-    margin: 0 auto;
+    margin: 0%;
     border-left: 3px double white;
     border-right: 3px double white;
-    padding: 30px;
+    padding: 90%;
+    border: 0%
 }
