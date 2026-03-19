@@ -92,6 +92,56 @@ p::after {
     clear: both;
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2f855a;
+    color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #276749;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#topButton {
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-color: maroon;
+}
+
+#topButton:hover {
+    background-color: darkgoldenrod;
+}
+
+.navbar {
+    padding: 10px;
+    text-align: center;
+    background-color: #2f855a;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     #pic1, #pic2 {
         float: none;
